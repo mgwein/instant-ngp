@@ -14,3 +14,5 @@ __pycache__
 .DS_Store
 imgui.ini
 /data/ball/ball.mp4
+/data/p365/*
+/data/cham/*
