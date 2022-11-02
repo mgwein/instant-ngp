@@ -89,6 +89,9 @@ add_subdirectory(dependencies/tiny-cuda-nn)
 
 set(CMAKE_CUDA_ARCHITECTURES ${TCNN_CUDA_ARCHITECTURES})
 
+set(Vulkan_INCLUDE_DIRS "$C:/VulkanSDK/1.3.231.1/Bin")
+set(Vulkan_LIBRARIES "${CMAKE_CURRENT_SOURCE_DIR}/VulkanRT-1.3.231.1-Components/x64")
+
 if (NGP_BUILD_WITH_GUI)
 	find_package(Vulkan)
 	if (Vulkan_FOUND AND NGP_BUILD_WITH_VULKAN)

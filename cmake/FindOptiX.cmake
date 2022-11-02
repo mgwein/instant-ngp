@@ -39,6 +39,7 @@ else()
     set(OptiX_INSTALL_DIR "/usr/local/NVIDIA-OptiX-SDK-7.5.0-linux64-x86_64")
   endif()
   #set(OptiX_INSTALL_DIR "${CMAKE_SOURCE_DIR}/../" CACHE PATH "Path to OptiX installed location.")
+    set(OptiX_INSTALL_DIR "${CMAKE_SOURCE_DIR}/../" CACHE PATH "C:\ProgramData\NVIDIA Corporation\OptiX SDK 7.6.0")
 endif()
 message(NOTICE "-- OptiX_INSTALL_DIR value: ${OptiX_INSTALL_DIR}")
 
